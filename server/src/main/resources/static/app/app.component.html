@@ -1,0 +1,19 @@
+ <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container mynav">
+        <div class="navbar-header">
+            <a class="navbar-brand" routerLink="/price" routerLinkActive="active"><img class="logo" src="../images/logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="responsive-menu">
+            <ul class="nav navbar-nav mydrop">
+                <li><a (click)="goPrice()" >Цены</a></li>
+                <li><a (click)="goTrainers()" >Наши тренера</a></li>
+                <li><a  (click)="goPhotoGallery()">Фотогалерея</a></li>
+                <li><a (click)="goMap()">Карта</a></li>
+                <li><a href="http://localhost:8070"> Интернет-магазин</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="cont">
+    <router-outlet></router-outlet>
+</div>

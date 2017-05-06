@@ -1,0 +1,30 @@
+.text{
+    margin-left: 5%;
+    float:left;
+}
+.text a{
+    color:lightgray;
+    font-family: cursive;
+    font-size: 150%;
+}
+.text a:hover{
+    cursor: pointer;
+}
+.images{
+
+}
+.images img{
+    margin-left: 20%;
+    margin-top: 3%;
+    height: 350px;
+}
+.cont{
+    margin-top: 3%;
+}
+.cont p{
+    color: lightgray;
+    font-size: 140%;
+    margin-left:30%;
+    margin-top: 1%;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
